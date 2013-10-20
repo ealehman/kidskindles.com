@@ -19,11 +19,11 @@
             <div class="nav-collapse collapse">
               <ul class="nav">
                 <li><a href="/home">Home</a></li>
-                <li><a href="/about">About</a></li>
                 <li><a href="/experience">My Experience</a></li>
                 <ul class="nav" role="navigation">
-                <li><a href="/library" >Library</a></li>
+                <li><a href="/library" >Get Involved</a></li>
                 <li class = "active"><a href="#">Photos</a></li>
+                <li><a href="/contact">Contact Us</a></li>
                   </ul>
                 </li>
               </ul>
@@ -43,7 +43,65 @@
                 <img src="../assets/img/gallery/1.jpg" alt="1" />
             </div>
 
-            <? foreach (range(2,32) as $image) { ?>
+            <? foreach (range(2,16) as $image) { ?>
+            <div class="item">
+                <img src="../assets/img/gallery/<?echo $image?>.jpg" alt="<?echo $image ?>" />
+            </div>
+            <? } ?>
+
+            <? foreach (range(17,18) as $image) { ?>
+            <div class="item">
+                <img src="../assets/img/gallery/<?echo $image?>.JPG" alt="<?echo $image ?>" />
+            </div>
+            <? } ?>
+
+            <? foreach (range(19,20) as $image) { ?>
+            <div class="item">
+                <img src="../assets/img/gallery/<?echo $image?>.jpg" alt="<?echo $image ?>" />
+            </div>
+            <? } ?>
+
+            <div class="item">
+                <img src="../assets/img/gallery/21.JPG" alt="21" />
+            </div>
+
+            <div class="item">
+                <img src="../assets/img/gallery/22.jpg" alt="22" />
+            </div>
+
+            <? foreach (range(23,24) as $image) { ?>
+            <div class="item">
+                <img src="../assets/img/gallery/<?echo $image?>.JPG" alt="<?echo $image ?>" />
+            </div>
+            <? } ?>
+
+            <div class="item">
+                <img src="../assets/img/gallery/25.jpg" alt="25" />
+            </div>
+
+            <? foreach (range(26,27) as $image) { ?>
+            <div class="item">
+                <img src="../assets/img/gallery/<?echo $image?>.JPG" alt="<?echo $image ?>" />
+            </div>
+            <? } ?>
+
+            <? foreach (range(28,30) as $image) { ?>
+            <div class="item">
+                <img src="../assets/img/gallery/<?echo $image?>.jpg" alt="<?echo $image ?>" />
+            </div>
+            <? } ?>
+
+            <div class="item">
+                <img src="../assets/img/gallery/31.JPG" alt="31" />
+            </div>
+
+            <div class="item">
+                <img src="../assets/img/gallery/32.jpg" alt="32" />
+            </div>
+
+            <!-- No number 33-->
+
+            <? foreach (range(34,37) as $image) { ?>
             <div class="item">
                 <img src="../assets/img/gallery/<?echo $image?>.jpg" alt="<?echo $image ?>" />
             </div>
